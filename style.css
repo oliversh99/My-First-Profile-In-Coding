@@ -1,9 +1,11 @@
 
-
-
 *{
     margin: 0;
     padding: 0;
+}
+.body{
+    display: block;
+   
 }
 
 header {
@@ -64,41 +66,63 @@ h4 {
 }
 .row{
     margin-top: 50px;
- border: 10px white solid;
+ /* border: 5px rgb(124, 33, 33) solid; */
  width: flex ;
- height: 600px;
+ height: 200px;
  position: relative;
+ display: block;
 
 }
 
 .aboutme {
-    border: 10px whites solid;
+    border: 5px green solid;
     width: max-content;
     font-weight: bold;
     font-size: 50px; 
     position:absolute; 
     top: 0px;
+    margin-left:80px;
+
+}
+.vertical_side_line1{
+
+    /* border-left: 10px solid blue; */
+    /* border-left-width:10px; */
+    /* border-left-style:solid; */
+    /* border-left-color:blue; */
+    background-color: rgb(5, 15, 71);
+    /* border-left-color: 5px blue solid; */
+    width: 5px;
+    height: 200px;
+    /* line-height: 50px; */
+    margin:210px;
+    margin-top:0px;
+    margin-left:225px;
+
+    
 }
 .infome{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
-    border: 10px white solid;
+    /* border: 10px rgb(221, 62, 62) solid; */
     width: 80%;
     height: 100%;
     position:absolute;
     right: 0;
-    top: 10px;
+    top: 5px;
 }
 
 
 .row1{
-    border: 10px white solid;
+    border: 10px rgb(72, 189, 111) solid;
     width: flex;
     height: 600px;
+    /* height: 100%; */
     position: relative;
+    display: block;
 }  
 .work {
-    border: 10px white solid;
+    border: 10px rgb(136, 35, 35) solid;
     width: max-content;
     height: max-content;
     font-weight: bold;
@@ -107,14 +131,33 @@ h4 {
     position:absolute;
     top: 0px;
 } 
+.vertical_side_line2{
+   
+    background-color: rgb(126, 24, 83);
+    border-color: 5px blue solid;
+    width: 150px;
+    /* height: 700px; */
+    /* line-height: 50px; */
+    margin:0px;
+    /* margin-top:150px; */
+    /* margin-left:225px; */
+   
+
+    
+}
 .pro{
     font-size: xx-large;
-    border: 10px white solid;
+    border: 10px rgb(11, 10, 15) solid;
     width: 80%;
     height: 100%;
     position:absolute;
     right: 0;
     top: 0;
+    
+}
+.cardProject2{
+    display:inline;
+    border:5px red solid;
     
 }
 .row2{
@@ -127,7 +170,9 @@ h4 {
 .row2 {
     background-image: url(pic.jpg);
      
-
+}
+.vertical_side_line3{
+    
 }
 .contact { text-align: left;
     
@@ -162,3 +207,21 @@ a{
     border-left: 10px;
    
 }
+/* from test code  */
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    min-width: 400px;
+  }
